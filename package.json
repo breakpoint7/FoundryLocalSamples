@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "rag":     "node ragserver.js",
+    "rag:cli": "node ragdemo.js",
+    "mcp":     "node mcpserver.js",
+    "mcp:cli": "node mcpdemo.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "express": "^4.21.0",
+    "foundry-local-sdk-winml": "^1.2.0"
+  }
+}

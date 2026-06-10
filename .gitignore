@@ -1,0 +1,39 @@
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Demo-generated caches ---
+# Regenerated automatically on first run (or with `--rebuild`).
+# Tied to the embedding model + corpus, so not worth committing.
+docs.vectors.json
+
+# Input list for convertdocs.py against an external azure-docs clone.
+# Each user creates their own — see convertdocs.py for the expected format.
+files.txt
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build / coverage (not used today but harmless to pre-empt) ---
+dist/
+build/
+coverage/
+.nyc_output/
+*.log
