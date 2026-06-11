@@ -4,7 +4,8 @@
     "rag":     "node ragserver.js",
     "rag:cli": "node ragdemo.js",
     "mcp":     "node mcpserver.js",
-    "mcp:cli": "node mcpdemo.js"
+    "mcp:cli": "node mcpdemo.js",
+    "HelloWorld": "node HelloWorld.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.0",
